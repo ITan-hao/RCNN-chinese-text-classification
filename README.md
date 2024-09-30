@@ -21,4 +21,15 @@ run.py ：
 - 根据配置和迭代器训练模型。
 - 保存训练过程和模型的摘要信息到日志目录。
 
-详情：https://zhuanlan.zhihu.com/p/73176084
+# 训练并测试：
+# TextCNN
+python run.py --model TextCNN
+
+# TextRNN
+python run.py --model TextRNN
+
+# TextRCNN
+python run.py --model TextRCNN
+
+
+其他详情：https://zhuanlan.zhihu.com/p/73176084
