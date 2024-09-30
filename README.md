@@ -3,7 +3,7 @@ run.py ：
 # 中文文本分类
 使用argparse库解析命令行输入并配置模型和数据加载
 
-  - `--model`：选择模型：TextCNN, TextRNN。
+  - `--model`：选择模型：TextCNN, TextRNN，TextRCNN。
   - `--embedding`：指定词嵌入模型来源（预训练或随机）。
   - `--word`：基于词还是字符级别的分析。
 
@@ -20,3 +20,5 @@ run.py ：
 ### 训练模型
 - 根据配置和迭代器训练模型。
 - 保存训练过程和模型的摘要信息到日志目录。
+
+详情：https://zhuanlan.zhihu.com/p/73176084
